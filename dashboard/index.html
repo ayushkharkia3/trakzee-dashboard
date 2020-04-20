@@ -291,33 +291,465 @@
                     </div>
                 </div>
             </div>
-            <ul class="row-1">
-                <li class="span-1-of-3">
-                    <div class="fleet-parking">
-                        <div class="fleet-parking-box">
-                            <div class="fleet-parking-heading">
+            <div class="travel-distance-modal">
+                <div class="travel-distance-modal-content">
+                    <div class="travel-distance-heading-box">
+                        <ul>
+                            <li class="travel-distance-modal-heading">Travel Distance</li>
+                            <li class="travel-distance-modal-cross">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="scrolable-content">
+                        <div class="travel-distance-modal-section">
+                            <div class="travel-distance-box">
+                                <div class="travel-distance-section-heading">
+                                    Travel Distance
+                                </div>
+                                <div class="travel-distance-components">
+                                    <div class="travel-distance-graph-icon">
+                                        <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                                    </div>
+                                    <div class="travel-distance-table-icon">
+                                        <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                    </div>
+                                    <div class="travel-distance-day">
+                                        <select id="travel-distance-day">
+                                            <option value="today">Today</option>
+                                            <option value="Yesterday">Yesterday</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scrolable-content">
+                                <div class="travel-distance-graph">
+                                    space for graph
+                                </div>
+                                <table class="travel-distance-table">
+                                    <tr>
+                                        <th>Vehicle name</th>
+                                        <th>Distance (km)</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Maruti</td>
+                                        <td>50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>nano</td>
+                                        <td>100</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="total-trip-modal ">
+                <div class="total-trip-modal-content">
+                    <div class="total-trip-heading-box">
+                        <ul>
+                            <li class="total-trip-modal-heading">Trips</li>
+                            <li class="total-trip-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="scrolable-content">
+                        <div class="total-trip-modal-section">
+                            <div class="total-trip-box">
+                                <div class="total-trip-section-heading">
+                                    Trips
+                                </div>
+                                <div class="total-trip-components ">
+                                    <div class="total-trip-graph-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
+                                    </div>
+                                    <div class="total-trip-table-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
+                                    </div>
+                                    <div class="total-trip-day ">
+                                        <select id="total-trip-day ">
+                                            <option value="today ">Today</option>
+                                            <option value="Yesterday ">Yesterday</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scrolable-content ">
+                                <div class="total-trip-graph ">
+                                    space for graph
+                                </div>
+                                <table class="total-trip-table ">
+                                    <tr>
+                                        <th>Vehicle name</th>
+                                        <th>trips</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Maruti</td>
+                                        <td>50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>nano</td>
+                                        <td>100</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="driving-duration-modal ">
+                <div class="driving-duration-modal-content">
+                    <div class="driving-duration-heading-box">
+                        <ul>
+                            <li class="driving-duration-modal-heading">Driving Duration</li>
+                            <li class="driving-duration-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="scrolable-content">
+                        <div class="driving-duration-modal-section">
+                            <div class="driving-duration-box">
+                                <div class="driving-duration-section-heading">
+                                    Driving Duration
+                                </div>
+                                <div class="driving-duration-components ">
+                                    <div class="driving-duration-graph-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
+                                    </div>
+                                    <div class="driving-duration-table-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
+                                    </div>
+                                    <div class="driving-duration-day ">
+                                        <select id="driving-duration-day ">
+                                            <option value="today ">Today</option>
+                                            <option value="Yesterday ">Yesterday</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scrolable-content ">
+                                <div class="driving-duration-graph ">
+                                    space for graph
+                                </div>
+                                <table class="driving-duration-table ">
+                                    <tr>
+                                        <th>Vehicle name</th>
+                                        <th>Duration</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Maruti</td>
+                                        <td>50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>nano</td>
+                                        <td>100</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="idle-duration-modal ">
+                <div class="idle-duration-modal-content">
+                    <div class="idle-duration-heading-box">
+                        <ul>
+                            <li class="idle-duration-modal-heading">Idle Duration</li>
+                            <li class="idle-duration-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="scrolable-content">
+                        <div class="idle-duration-modal-section">
+                            <div class="idle-duration-box">
+                                <div class="idle-duration-section-heading">
+                                    Idle Duration
+                                </div>
+                                <div class="idle-duration-components ">
+                                    <div class="idle-duration-graph-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
+                                    </div>
+                                    <div class="idle-duration-table-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
+                                    </div>
+                                    <div class="idle-duration-day ">
+                                        <select id="idle-duration-day ">
+                                            <option value="today ">Today</option>
+                                            <option value="Yesterday ">Yesterday</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scrolable-content ">
+                                <div class="idle-duration-graph ">
+                                    space for graph
+                                </div>
+                                <table class="idle-duration-table ">
+                                    <tr>
+                                        <th>Vehicle name</th>
+                                        <th>Duration</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Maruti</td>
+                                        <td>50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>nano</td>
+                                        <td>100</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stop-duration-modal ">
+                <div class="stop-duration-modal-content">
+                    <div class="stop-duration-heading-box">
+                        <ul>
+                            <li class="stop-duration-modal-heading">Stop Duration</li>
+                            <li class="stop-duration-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="scrolable-content">
+                        <div class="stop-duration-modal-section">
+                            <div class="stop-duration-box">
+                                <div class="stop-duration-section-heading">
+                                    Stop Duration
+                                </div>
+                                <div class="stop-duration-components ">
+                                    <div class="stop-duration-graph-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
+                                    </div>
+                                    <div class="stop-duration-table-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
+                                    </div>
+                                    <div class="stop-duration-day ">
+                                        <select id="stop-duration-day ">
+                                            <option value="today ">Today</option>
+                                            <option value="Yesterday ">Yesterday</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scrolable-content ">
+                                <div class="stop-duration-graph ">
+                                    space for graph
+                                </div>
+                                <table class="stop-duration-table ">
+                                    <tr>
+                                        <th>Vehicle name</th>
+                                        <th>Duration</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Maruti</td>
+                                        <td>50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>nano</td>
+                                        <td>100</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inactive-duration-modal ">
+                <div class="inactive-duration-modal-content">
+                    <div class="inactive-duration-heading-box">
+                        <ul>
+                            <li class="inactive-duration-modal-heading">Inactive Duration</li>
+                            <li class="inactive-duration-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="scrolable-content">
+                        <div class="inactive-duration-modal-section">
+                            <div class="inactive-duration-box">
+                                <div class="inactive-duration-section-heading">
+                                    Inactive Duration
+                                </div>
+                                <div class="inactive-duration-components ">
+                                    <div class="inactive-duration-graph-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
+                                    </div>
+                                    <div class="inactive-duration-table-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
+                                    </div>
+                                    <div class="inactive-duration-day ">
+                                        <select id="inactive-duration-day ">
+                                            <option value="today ">Today</option>
+                                            <option value="Yesterday ">Yesterday</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scrolable-content ">
+                                <div class="inactive-duration-graph ">
+                                    space for graph
+                                </div>
+                                <table class="inactive-duration-table ">
+                                    <tr>
+                                        <th>Vehicle name</th>
+                                        <th>Duration</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Maruti</td>
+                                        <td>50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>nano</td>
+                                        <td>100</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="average-speed-modal ">
+                <div class="average-speed-modal-content">
+                    <div class="average-speed-heading-box">
+                        <ul>
+                            <li class="average-speed-modal-heading">Average Speed</li>
+                            <li class="average-speed-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="scrolable-content">
+                        <div class="average-speed-modal-section">
+                            <div class="average-speed-box">
+                                <div class="average-speed-section-heading">
+                                    Average Speed
+                                </div>
+                                <div class="average-speed-components ">
+                                    <div class="average-speed-graph-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
+                                    </div>
+                                    <div class="average-speed-table-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
+                                    </div>
+                                    <div class="average-speed-day ">
+                                        <select id="average-speed-day ">
+                                            <option value="today ">Today</option>
+                                            <option value="Yesterday ">Yesterday</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scrolable-content ">
+                                <div class="average-speed-graph ">
+                                    space for graph
+                                </div>
+                                <table class="average-speed-table ">
+                                    <tr>
+                                        <th>Vehicle name</th>
+                                        <th>Speed (km/h)</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Maruti</td>
+                                        <td>50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>nano</td>
+                                        <td>100</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="maximum-speed-modal ">
+                <div class="maximum-speed-modal-content">
+                    <div class="maximum-speed-heading-box">
+                        <ul>
+                            <li class="maximum-speed-modal-heading">Maximum Speed</li>
+                            <li class="maximum-speed-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="scrolable-content">
+                        <div class=maximum-speed-modal-section ">
+                            <div class="maximum-speed-box ">
+                                <div class="maximum-speed-section-heading ">
+                                    Maximum Speed
+                                </div>
+                                <div class="maximum-speed-components ">
+                                    <div class="maximum-speed-graph-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
+                                    </div>
+                                    <div class="maximum-speed-table-icon ">
+                                        <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
+                                    </div>
+                                    <div class="maximum-speed-day ">
+                                        <select id="maximum-speed-day ">
+                                            <option value="today ">Today</option>
+                                            <option value="Yesterday ">Yesterday</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scrolable-content ">
+                                <div class="maximum-speed-graph ">
+                                    space for graph
+                                </div>
+                                <table class="maximum-speed-table ">
+                                    <tr>
+                                        <th>Vehicle name</th>
+                                        <th>Speed (km/h)</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Maruti</td>
+                                        <td>50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>nano</td>
+                                        <td>100</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="row-1 ">
+                <li class="span-1-of-3 ">
+                    <div class="fleet-parking ">
+                        <div class="fleet-parking-box ">
+                            <div class="fleet-parking-heading ">
                                 Fleet Parking
                             </div>
-                            <div class="fleet-parking-components">
-                                <div class="fleet-parking-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="fleet-parking-components ">
+                                <div class="fleet-parking-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="fleet-parking-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="fleet-parking-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="fleet-parking-day">
-                                    <select id="fleet-parking-day">
-                                        <option value="today">Today</option>
-                                        <option value="Yesterday">Yesterday</option>
+                                <div class="fleet-parking-day ">
+                                    <select id="fleet-parking-day ">
+                                        <option value="today ">Today</option>
+                                        <option value="Yesterday ">Yesterday</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="scrolable-content">
-                            <div class="fleet-parking-graph">
+                        <div class="scrolable-content ">
+                            <div class="fleet-parking-graph ">
                                 space for graph
                             </div>
-                            <table class="fleet-parking-table">
+                            <table class="fleet-parking-table ">
                                 <tr>
                                     <th>Index</th>
                                     <th>Hours</th>
@@ -337,14 +769,14 @@
                         </div>
                     </div>
                 </li>
-                <li class="span-1-of-3">
+                <li class="span-1-of-3 ">
                     <div class="renewal-reminders-outer-box ">
-                        <div class="renewal-reminders">
-                            <div class="renewal-reminders-heading">
+                        <div class="renewal-reminders ">
+                            <div class="renewal-reminders-heading ">
                                 Renewal Reminders
                             </div>
-                            <div class="scrolable-content">
-                                <table class="renewal-reminders-table">
+                            <div class="scrolable-content ">
+                                <table class="renewal-reminders-table ">
                                     <tr>
                                         <th>Renewal Type</th>
                                         <th>Due</th>
@@ -353,25 +785,25 @@
                                     </tr>
                                     <tr>
                                         <td>Fitness Certificate</td>
-                                        <td class="fitness-certificate-due">0</td>
-                                        <td class="fitness-certificate-overdue">0</td>
-                                        <td class="fitness-certificate-upcoming">1</td>
+                                        <td class="fitness-certificate-due ">0</td>
+                                        <td class="fitness-certificate-overdue ">0</td>
+                                        <td class="fitness-certificate-upcoming ">1</td>
                                     </tr>
                                     <tr>
                                         <td>Insurance</td>
-                                        <td class="insurance-due">0</td>
-                                        <td class="insurance-overdue">1</td>
-                                        <td class="insurance-upcoming">0</td>
+                                        <td class="insurance-due ">0</td>
+                                        <td class="insurance-overdue ">1</td>
+                                        <td class="insurance-upcoming ">0</td>
                                     </tr>
                                 </table>
                             </div>
                         </div>
-                        <div class="prepaid-user-detail">
-                            <div class="prepaid-user-detail-heading">
+                        <div class="prepaid-user-detail ">
+                            <div class="prepaid-user-detail-heading ">
                                 Prepaid User Detail
                             </div>
-                            <div class="scrolable-content">
-                                <table class="prepaid-user-detail-table">
+                            <div class="scrolable-content ">
+                                <table class="prepaid-user-detail-table ">
                                     <tr>
                                         <th>User</th>
                                         <th>Plan Name</th>
@@ -379,39 +811,39 @@
                                         <th>Object Count</th>
                                     </tr>
                                     <tr>
-                                        <td colspan="4"> No Record Found</td>
+                                        <td colspan="4 "> No Record Found</td>
                                     </tr>
                                 </table>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li class="span-1-of-3">
-                    <div class="fleet-utilisation">
-                        <div class="fleet-utilisation-box">
-                            <div class="fleet-utilisation-heading">
+                <li class="span-1-of-3 ">
+                    <div class="fleet-utilisation ">
+                        <div class="fleet-utilisation-box ">
+                            <div class="fleet-utilisation-heading ">
                                 Fleet Utilisation
                             </div>
-                            <div class="fleet-utilisation-components">
-                                <div class="fleet-utilisation-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="fleet-utilisation-components ">
+                                <div class="fleet-utilisation-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="fleet-utilisation-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="fleet-utilisation-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="fleet-utilisation-day">
-                                    <select id="fleet-utlisation-day">
-                                        <option value="today">Today</option>
-                                        <option value="Yesterday">Yesterday</option>
+                                <div class="fleet-utilisation-day ">
+                                    <select id="fleet-utlisation-day ">
+                                        <option value="today ">Today</option>
+                                        <option value="Yesterday ">Yesterday</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="scrolable-content">
-                            <div class="fleet-utilisation-graph">
+                        <div class="scrolable-content ">
+                            <div class="fleet-utilisation-graph ">
                                 Space for graph
                             </div>
-                            <table class="fleet-utilisation-table">
+                            <table class="fleet-utilisation-table ">
                                 <tr>
                                     <th>Index</th>
                                     <th>Hours</th>
@@ -435,33 +867,33 @@
                     </div>
                 </li>
             </ul>
-            <ul class="row-2">
-                <li class="span-1-of-3">
-                    <div class="fleet-inactive">
-                        <div class="fleet-inactive-box">
-                            <div class="fleet-inactive-heading">
+            <ul class="row-2 ">
+                <li class="span-1-of-3 ">
+                    <div class="fleet-inactive ">
+                        <div class="fleet-inactive-box ">
+                            <div class="fleet-inactive-heading ">
                                 Fleet Inactive
                             </div>
-                            <div class="fleet-inactive-components">
-                                <div class="fleet-inactive-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="fleet-inactive-components ">
+                                <div class="fleet-inactive-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="fleet-inactive-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="image icon" />
+                                <div class="fleet-inactive-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="image icon " />
                                 </div>
-                                <div class="fleet-inactive-day">
-                                    <select id="fleet-inactive-day">
-                                        <option value="today">Today</option>
-                                        <option value="Yesterday">Yesterday</option>
+                                <div class="fleet-inactive-day ">
+                                    <select id="fleet-inactive-day ">
+                                        <option value="today ">Today</option>
+                                        <option value="Yesterday ">Yesterday</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="scrolable-content">
-                            <div class="fleet-inactive-graph">
+                        <div class="scrolable-content ">
+                            <div class="fleet-inactive-graph ">
                                 Space for graph
                             </div>
-                            <table class="fleet-inactive-table">
+                            <table class="fleet-inactive-table ">
                                 <tr>
                                     <th>Index</th>
                                     <th>Hours</th>
@@ -481,14 +913,14 @@
                         </div>
                     </div>
                 </li>
-                <li class="span-1-of-3">
-                    <div class="renewal-reminders-outer-box">
-                        <div class="object-health">
-                            <div class="object-health-heading">
+                <li class="span-1-of-3 ">
+                    <div class="renewal-reminders-outer-box ">
+                        <div class="object-health ">
+                            <div class="object-health-heading ">
                                 Object Health
                             </div>
-                            <div class="scrolable-content">
-                                <table class="object-health-table">
+                            <div class="scrolable-content ">
+                                <table class="object-health-table ">
                                     <tr>
                                         <th>State</th>
                                         <th>No of Vehicles</th>
@@ -497,27 +929,27 @@
                                     <tr>
                                         <td>Minor</td>
                                         <td>0</td>
-                                        <td class="minor-details"><img src="https://img.icons8.com/color/30/000000/details-pane.png" alt="details icon" /></td>
+                                        <td class="minor-details "><img src="https://img.icons8.com/color/30/000000/details-pane.png " alt="details icon " /></td>
                                     </tr>
                                     <tr>
                                         <td>Major</td>
                                         <td>0</td>
-                                        <td class="major-details"><img src="https://img.icons8.com/color/30/000000/details-pane.png" alt="details icon" /></td>
+                                        <td class="major-details "><img src="https://img.icons8.com/color/30/000000/details-pane.png " alt="details icon " /></td>
                                     </tr>
                                     <tr>
                                         <td>Critical</td>
                                         <td>0</td>
-                                        <td class="critical-details"><img src="https://img.icons8.com/color/30/000000/details-pane.png" alt="details icon" /></td>
+                                        <td class="critical-details "><img src="https://img.icons8.com/color/30/000000/details-pane.png " alt="details icon " /></td>
                                     </tr>
                                 </table>
                             </div>
                         </div>
                         <div class="maintainance-reminder ">
-                            <div class="maintainance-reminder-heading">
+                            <div class="maintainance-reminder-heading ">
                                 Prepaid User Detail
                             </div>
-                            <div class="scrolable-content">
-                                <table class="maintainance-reminder-table">
+                            <div class="scrolable-content ">
+                                <table class="maintainance-reminder-table ">
                                     <tr>
                                         <th>Service Type</th>
                                         <th>Due</th>
@@ -526,59 +958,59 @@
                                     </tr>
                                     <tr>
                                         <td>Oil Change</td>
-                                        <td class="oil-change-due">0</td>
-                                        <td class="oil-change-overdue">1</td>
-                                        <td class="oil-change-upcoming">0</td>
+                                        <td class="oil-change-due ">0</td>
+                                        <td class="oil-change-overdue ">1</td>
+                                        <td class="oil-change-upcoming ">0</td>
                                     </tr>
                                     <tr>
                                         <td>Coolant Flush</td>
-                                        <td class="coolant-flush-due">0</td>
-                                        <td class="coolant-flush-overdue">1</td>
-                                        <td class="coolant-flush-upcoming">0</td>
+                                        <td class="coolant-flush-due ">0</td>
+                                        <td class="coolant-flush-overdue ">1</td>
+                                        <td class="coolant-flush-upcoming ">0</td>
                                     </tr>
                                     <tr>
                                         <td>Car Wash</td>
-                                        <td class="car-wash-due">0</td>
-                                        <td class="car-wash-overdue">1</td>
-                                        <td class="car-wash-upcoming">0</td>
+                                        <td class="car-wash-due ">0</td>
+                                        <td class="car-wash-overdue ">1</td>
+                                        <td class="car-wash-upcoming ">0</td>
                                     </tr>
                                     <tr>
                                         <td>General Servicing</td>
-                                        <td class="general-servicing-due">0</td>
-                                        <td class="general-servicing-overdue">1</td>
-                                        <td class="general-servicing-upcoming">0</td>
+                                        <td class="general-servicing-due ">0</td>
+                                        <td class="general-servicing-overdue ">1</td>
+                                        <td class="general-servicing-upcoming ">0</td>
                                     </tr>
                                 </table>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li class="span-1-of-3">
-                    <div class="top-10-bad-drivers">
-                        <div class="top-10-bad-drivers-box">
-                            <div class="top-10-bad-drivers-heading">
+                <li class="span-1-of-3 ">
+                    <div class="top-10-bad-drivers ">
+                        <div class="top-10-bad-drivers-box ">
+                            <div class="top-10-bad-drivers-heading ">
                                 Top 10 Bad Drivers
                             </div>
-                            <div class="top-10-bad-drivers-components">
-                                <div class="top-10-bad-drivers-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="top-10-bad-drivers-components ">
+                                <div class="top-10-bad-drivers-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="top-10-bad-drivers-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="top-10-bad-drivers-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="top-10-bad-drivers-day">
-                                    <select id="top-10-bad-drivers-day">
-                                        <option value="today">Today</option>
-                                        <option value="Yesterday">Yesterday</option>
+                                <div class="top-10-bad-drivers-day ">
+                                    <select id="top-10-bad-drivers-day ">
+                                        <option value="today ">Today</option>
+                                        <option value="Yesterday ">Yesterday</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="scrolable-content">
-                            <div class="top-10-bad-drivers-graph">
+                        <div class="scrolable-content ">
+                            <div class="top-10-bad-drivers-graph ">
                                 Space for graph
                             </div>
-                            <table class="top-10-bad-drivers-table">
+                            <table class="top-10-bad-drivers-table ">
                                 <tr>
                                     <th> No data available</th>
                                 </tr>
@@ -587,38 +1019,38 @@
                     </div>
                 </li>
             </ul>
-            <ul class="row-3">
-                <li class="span-1-of-2">
+            <ul class="row-3 ">
+                <li class="span-1-of-2 ">
                     <div class="map ">
                         Space for map
                     </div>
                 </li>
-                <li class=" span-1-of-2">
-                    <div class="fleet-violation">
-                        <div class="fleet-violation-box">
-                            <div class="fleet-violation-heading">
+                <li class=" span-1-of-2 ">
+                    <div class="fleet-violation ">
+                        <div class="fleet-violation-box ">
+                            <div class="fleet-violation-heading ">
                                 Fleet Violation
                             </div>
-                            <div class="fleet-violation-components">
-                                <div class="fleet-violation-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="fleet-violation-components ">
+                                <div class="fleet-violation-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="fleet-violation-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="fleet-violation-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="fleet-violation-day">
-                                    <select id="fleet-violation-day">
-                                        <option value="today">Today</option>
-                                        <option value="Yesterday">Yesterday</option>
+                                <div class="fleet-violation-day ">
+                                    <select id="fleet-violation-day ">
+                                        <option value="today ">Today</option>
+                                        <option value="Yesterday ">Yesterday</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="scrolable-content">
-                            <div class="fleet-violation-graph">
+                        <div class="scrolable-content ">
+                            <div class="fleet-violation-graph ">
                                 Space for graph
                             </div>
-                            <table class="fleet-violation-table">
+                            <table class="fleet-violation-table ">
                                 <tr>
                                     <th>Index</th>
                                     <th>Company</th>
@@ -634,22 +1066,22 @@
                     </div>
                 </li>
             </ul>
-            <ul class="row-4">
-                <li class=" span-1-of-3">
-                    <div class="gps-model-summary">
-                        <div class="gps-model-summary-box">
-                            <div class="gps-model-summary-heading">
+            <ul class="row-4 ">
+                <li class=" span-1-of-3 ">
+                    <div class="gps-model-summary ">
+                        <div class="gps-model-summary-box ">
+                            <div class="gps-model-summary-heading ">
                                 GPS Model Summary
                             </div>
-                            <div class="gps-model-summary-components">
-                                <div class="gps-model-summary-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="gps-model-summary-components ">
+                                <div class="gps-model-summary-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="gps-model-summary-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="gps-model-summary-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="gps-model-summary-day">
-                                    <select id="gps-model-summary-day">
+                                <div class="gps-model-summary-day ">
+                                    <select id="gps-model-summary-day ">
                                         <option value="today ">Today</option>
                                         <option value="Yesterday ">Yesterday</option>
                                     </select>
@@ -677,19 +1109,19 @@
                 </li>
                 <li class="span-1-of-3 ">
                     <div class="safety-score ">
-                        <div class="safety-score-box">
-                            <div class="safety-score-heading">
+                        <div class="safety-score-box ">
+                            <div class="safety-score-heading ">
                                 Safety Score
                             </div>
-                            <div class="safety-score-components">
-                                <div class="safety-score-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="safety-score-components ">
+                                <div class="safety-score-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="safety-score-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="safety-score-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="safety-score-day">
-                                    <select id="safety-score-day">
+                                <div class="safety-score-day ">
+                                    <select id="safety-score-day ">
                                         <option value="today ">Today</option>
                                         <option value="Yesterday ">Yesterday</option>
                                     </select>
@@ -707,19 +1139,19 @@
                 </li>
                 <li class=" span-1-of-3 ">
                     <div class="expense-history ">
-                        <div class="expense-history-box">
-                            <div class="expense-history-heading">
+                        <div class="expense-history-box ">
+                            <div class="expense-history-heading ">
                                 Expense History
                             </div>
-                            <div class="expense-history-components">
-                                <div class="expense-history-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="expense-history-components ">
+                                <div class="expense-history-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="expense-history-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="expense-history-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="expense-history-day">
-                                    <select id="expense-history-day">
+                                <div class="expense-history-day ">
+                                    <select id="expense-history-day ">
                                         <option value="today ">Today</option>
                                         <option value="Yesterday ">Yesterday</option>
                                     </select>
@@ -744,20 +1176,20 @@
             </ul>
             <ul class="row-5 ">
                 <li class="span-1-of-3 ">
-                    <div class="project-vs-total-object">
-                        <div class="project-vs-total-object-box">
-                            <div class="project-vs-total-object-heading">
+                    <div class="project-vs-total-object ">
+                        <div class="project-vs-total-object-box ">
+                            <div class="project-vs-total-object-heading ">
                                 Project vs Total Object
                             </div>
-                            <div class="project-vs-total-object-components">
-                                <div class="project-vs-total-object-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="project-vs-total-object-components ">
+                                <div class="project-vs-total-object-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="project-vs-total-object-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="project-vs-total-object-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="project-vs-total-object-day">
-                                    <select id="project-vs-total-object-day">
+                                <div class="project-vs-total-object-day ">
+                                    <select id="project-vs-total-object-day ">
                                         <option value="today ">Today</option>
                                         <option value="Yesterday ">Yesterday</option>
                                     </select>
@@ -785,19 +1217,19 @@
                 </li>
                 <li class="span-1-of-3 ">
                     <div class="fuel-refil-vs-drain ">
-                        <div class="fuel-refil-vs-drain-box">
-                            <div class="fuel-refil-vs-drain-heading">
+                        <div class="fuel-refil-vs-drain-box ">
+                            <div class="fuel-refil-vs-drain-heading ">
                                 Fuel Refill vs Drain
                             </div>
-                            <div class="fuel-refil-vs-drain-components">
-                                <div class="fuel-refil-vs-drain-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="fuel-refil-vs-drain-components ">
+                                <div class="fuel-refil-vs-drain-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="fuel-refil-vs-drain-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="fuel-refil-vs-drain-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="fuel-refil-vs-drain-day">
-                                    <select id="fuel-refil-vs-drain-day">
+                                <div class="fuel-refil-vs-drain-day ">
+                                    <select id="fuel-refil-vs-drain-day ">
                                         <option value="today ">Today</option>
                                         <option value="Yesterday ">Yesterday</option>
                                     </select>
@@ -827,19 +1259,19 @@
                 </li>
                 <li class="span-1-of-3 ">
                     <div class="postpaid-user-detail ">
-                        <div class="postpaid-user-detail-box">
-                            <div class="postpaid-user-detail-heading">
+                        <div class="postpaid-user-detail-box ">
+                            <div class="postpaid-user-detail-heading ">
                                 Postpaid User Detail
                             </div>
-                            <div class="postpaid-user-detail-components">
-                                <div class="postpaid-user-detail-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="postpaid-user-detail-components ">
+                                <div class="postpaid-user-detail-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="postpaid-user-detail-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="postpaid-user-detail-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="postpaid-user-detail-day">
-                                    <select id="postpaid-user-detail-day">
+                                <div class="postpaid-user-detail-day ">
+                                    <select id="postpaid-user-detail-day ">
                                         <option value="today ">Today</option>
                                         <option value="Yesterday ">Yesterday</option>
                                     </select>
@@ -883,19 +1315,19 @@
             <ul class="row-6 ">
                 <li class="span-1-of-3 ">
                     <div class="fuel-vs-distance ">
-                        <div class="fuel-vs-distance-box">
-                            <div class="fuel-vs-distance-heading">
+                        <div class="fuel-vs-distance-box ">
+                            <div class="fuel-vs-distance-heading ">
                                 Fuel vs Distance
                             </div>
-                            <div class="fuel-vs-distance-components">
-                                <div class="fuel-vs-distance-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="fuel-vs-distance-components ">
+                                <div class="fuel-vs-distance-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="fuel-vs-distance-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="fuel-vs-distance-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="fuel-vs-distance-day">
-                                    <select id="fuel-vs-distance-day">
+                                <div class="fuel-vs-distance-day ">
+                                    <select id="fuel-vs-distance-day ">
                                         <option value="today ">Today</option>
                                         <option value="Yesterday ">Yesterday</option>
                                     </select>
@@ -903,7 +1335,7 @@
                             </div>
                         </div>
                         <div class="scrolable-content ">
-                            <div class="fuel-vs-distance-graph">
+                            <div class="fuel-vs-distance-graph ">
                                 Space for graph
                             </div>
                             <table class="fuel-vs-distance-table ">
@@ -927,19 +1359,19 @@
                 </li>
                 <li class="span-1-of-3 ">
                     <div class="fleet-idling ">
-                        <div class="fleet-idling-box">
-                            <div class="fleet-idling-heading">
+                        <div class="fleet-idling-box ">
+                            <div class="fleet-idling-heading ">
                                 Fleet Idling
                             </div>
-                            <div class="fleet-idling-components">
-                                <div class="fleet-idling-graph-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/graph.png" alt="graph icon" />
+                            <div class="fleet-idling-components ">
+                                <div class="fleet-idling-graph-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/graph.png " alt="graph icon " />
                                 </div>
-                                <div class="fleet-idling-table-icon">
-                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png" alt="table icon" />
+                                <div class="fleet-idling-table-icon ">
+                                    <img src="https://img.icons8.com/wired/32/000000/activity-grid.png " alt="table icon " />
                                 </div>
-                                <div class="fleet-idling-day">
-                                    <select id="fleet-idling-day">
+                                <div class="fleet-idling-day ">
+                                    <select id="fleet-idling-day ">
                                         <option value="today ">Today</option>
                                         <option value="Yesterday ">Yesterday</option>
                                     </select>
@@ -947,7 +1379,7 @@
                             </div>
                         </div>
                         <div class="scrolable-content ">
-                            <div class="fleet-idling-graph">
+                            <div class="fleet-idling-graph ">
                                 Space for graph
                             </div>
                             <table class="fleet-idling-table ">
@@ -971,18 +1403,18 @@
                     </div>
                 </li>
             </ul>
-            <div class="fitness-certificate-due-modal">
-                <div class="fitness-certificate-due-modal-content">
-                    <div class="fitness-certificate-due-heading-box">
+            <div class="fitness-certificate-due-modal ">
+                <div class="fitness-certificate-due-modal-content ">
+                    <div class="fitness-certificate-due-heading-box ">
                         <ul>
-                            <li class="fitness-certificate-due-heading">Fitness Certificate Due</li>
-                            <li class="fitness-certificate-due-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="fitness-certificate-due-heading ">Fitness Certificate Due</li>
+                            <li class="fitness-certificate-due-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="fitness-certificate-due-table">
+                    <div class="scrolable-content ">
+                        <table class="fitness-certificate-due-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -990,24 +1422,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="fitness-certificate-overdue-modal">
-                <div class="fitness-certificate-overdue-modal-content">
-                    <div class="fitness-certificate-overdue-heading-box">
+            <div class="fitness-certificate-overdue-modal ">
+                <div class="fitness-certificate-overdue-modal-content ">
+                    <div class="fitness-certificate-overdue-heading-box ">
                         <ul>
-                            <li class="fitness-certificate-overdue-heading">Fitness Certificate Overdue</li>
-                            <li class="fitness-certificate-overdue-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="fitness-certificate-overdue-heading ">Fitness Certificate Overdue</li>
+                            <li class="fitness-certificate-overdue-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="fitness-certificate-overdue-table">
+                    <div class="scrolable-content ">
+                        <table class="fitness-certificate-overdue-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1015,24 +1447,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="fitness-certificate-upcoming-modal">
-                <div class="fitness-certificate-upcoming-modal-content">
-                    <div class="fitness-certificate-upcoming-heading-box">
+            <div class="fitness-certificate-upcoming-modal ">
+                <div class="fitness-certificate-upcoming-modal-content ">
+                    <div class="fitness-certificate-upcoming-heading-box ">
                         <ul>
-                            <li class="fitness-certificate-upcoming-heading">Fitness Certificate Upcoming</li>
-                            <li class="fitness-certificate-upcoming-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="fitness-certificate-upcoming-heading ">Fitness Certificate Upcoming</li>
+                            <li class="fitness-certificate-upcoming-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="fitness-certificate-upcoming-table">
+                    <div class="scrolable-content ">
+                        <table class="fitness-certificate-upcoming-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1040,24 +1472,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="insurance-due-modal">
-                <div class="insurance-due-modal-content">
-                    <div class="insurance-due-heading-box">
+            <div class="insurance-due-modal ">
+                <div class="insurance-due-modal-content ">
+                    <div class="insurance-due-heading-box ">
                         <ul>
-                            <li class="insurance-due-heading">Insurance Due</li>
-                            <li class="insurance-due-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="insurance-due-heading ">Insurance Due</li>
+                            <li class="insurance-due-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="insurance-due-table">
+                    <div class="scrolable-content ">
+                        <table class="insurance-due-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1065,24 +1497,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="insurance-overdue-modal">
-                <div class="insurance-overdue-modal-content">
-                    <div class="insurance-overdue-heading-box">
+            <div class="insurance-overdue-modal ">
+                <div class="insurance-overdue-modal-content ">
+                    <div class="insurance-overdue-heading-box ">
                         <ul>
-                            <li class="insurance-overdue-heading">Insurance Overdue</li>
-                            <li class="insurance-overdue-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="insurance-overdue-heading ">Insurance Overdue</li>
+                            <li class="insurance-overdue-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="insurance-overdue-table">
+                    <div class="scrolable-content ">
+                        <table class="insurance-overdue-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1090,24 +1522,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="insurance-upcoming-modal">
-                <div class="insurance-upcoming-modal-content">
-                    <div class="insurance-upcoming-heading-box">
+            <div class="insurance-upcoming-modal ">
+                <div class="insurance-upcoming-modal-content ">
+                    <div class="insurance-upcoming-heading-box ">
                         <ul>
-                            <li class="insurance-upcoming-heading">Insurance Upcoming</li>
-                            <li class="insurance-upcoming-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="insurance-upcoming-heading ">Insurance Upcoming</li>
+                            <li class="insurance-upcoming-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="fitness-certificate-upcoming-table">
+                    <div class="scrolable-content ">
+                        <table class="fitness-certificate-upcoming-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1115,24 +1547,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="object-health-minor-modal">
-                <div class="object-health-minor-modal-content">
-                    <div class="object-health-minor-heading-box">
+            <div class="object-health-minor-modal ">
+                <div class="object-health-minor-modal-content ">
+                    <div class="object-health-minor-heading-box ">
                         <ul>
-                            <li class="object-health-minor-heading">Object Health Minor</li>
-                            <li class="object-health-minor-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="object-health-minor-heading ">Object Health Minor</li>
+                            <li class="object-health-minor-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="object-health-minor-table">
+                    <div class="scrolable-content ">
+                        <table class="object-health-minor-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Trouble code</th>
@@ -1141,24 +1573,24 @@
                                 <th>Causes</th>
                             </tr>
                             <tr>
-                                <td colspan="5">No Record Found</td>
+                                <td colspan="5 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="object-health-major-modal">
-                <div class="object-health-major-modal-content">
-                    <div class="object-health-major-heading-box">
+            <div class="object-health-major-modal ">
+                <div class="object-health-major-modal-content ">
+                    <div class="object-health-major-heading-box ">
                         <ul>
-                            <li class="object-health-major-heading">Object Health Major</li>
-                            <li class="object-health-major-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="object-health-major-heading ">Object Health Major</li>
+                            <li class="object-health-major-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="object-health-major-table">
+                    <div class="scrolable-content ">
+                        <table class="object-health-major-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Trouble code</th>
@@ -1167,24 +1599,24 @@
                                 <th>Causes</th>
                             </tr>
                             <tr>
-                                <td colspan="5">No Record Found</td>
+                                <td colspan="5 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="object-health-critical-modal">
-                <div class="object-health-critical-modal-content">
-                    <div class="object-health-critical-heading-box">
+            <div class="object-health-critical-modal ">
+                <div class="object-health-critical-modal-content ">
+                    <div class="object-health-critical-heading-box ">
                         <ul>
-                            <li class="object-health-critical-heading">Object Health Critical</li>
-                            <li class="object-health-critical-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="object-health-critical-heading ">Object Health Critical</li>
+                            <li class="object-health-critical-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="object-health-critical-table">
+                    <div class="scrolable-content ">
+                        <table class="object-health-critical-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Trouble code</th>
@@ -1193,24 +1625,24 @@
                                 <th>Causes</th>
                             </tr>
                             <tr>
-                                <td colspan="5">No Record Found</td>
+                                <td colspan="5 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="oil-change-due-modal">
-                <div class="oil-change-due-modal-content">
-                    <div class="oil-change-due-heading-box">
+            <div class="oil-change-due-modal ">
+                <div class="oil-change-due-modal-content ">
+                    <div class="oil-change-due-heading-box ">
                         <ul>
-                            <li class="oil-change-due-heading">Oil Change Due</li>
-                            <li class="oil-change-due-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="oil-change-due-heading ">Oil Change Due</li>
+                            <li class="oil-change-due-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="oil-change-due-table">
+                    <div class="scrolable-content ">
+                        <table class="oil-change-due-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1218,24 +1650,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="oil-change-overdue-modal">
-                <div class="oil-change-overdue-modal-content">
-                    <div class="oil-change-overdue-heading-box">
+            <div class="oil-change-overdue-modal ">
+                <div class="oil-change-overdue-modal-content ">
+                    <div class="oil-change-overdue-heading-box ">
                         <ul>
-                            <li class="oil-change-overdue-heading">Oil Change Overdue</li>
-                            <li class="oil-change-overdue-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="oil-change-overdue-heading ">Oil Change Overdue</li>
+                            <li class="oil-change-overdue-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="oil-change-overdue-table">
+                    <div class="scrolable-content ">
+                        <table class="oil-change-overdue-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1243,24 +1675,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="oil-change-upcoming-modal">
-                <div class="oil-change-upcoming-modal-content">
-                    <div class="oil-change-upcoming-heading-box">
+            <div class="oil-change-upcoming-modal ">
+                <div class="oil-change-upcoming-modal-content ">
+                    <div class="oil-change-upcoming-heading-box ">
                         <ul>
-                            <li class="oil-change-upcoming-heading">Oil Change Upcoming</li>
-                            <li class="oil-change-upcoming-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="oil-change-upcoming-heading ">Oil Change Upcoming</li>
+                            <li class="oil-change-upcoming-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="oil-change-upcoming-table">
+                    <div class="scrolable-content ">
+                        <table class="oil-change-upcoming-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1268,24 +1700,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="coolant-flush-due-modal">
-                <div class="coolant-flush-due-modal-content">
-                    <div class="coolant-flush-due-heading-box">
+            <div class="coolant-flush-due-modal ">
+                <div class="coolant-flush-due-modal-content ">
+                    <div class="coolant-flush-due-heading-box ">
                         <ul>
-                            <li class="coolant-flush-due-heading">Coolant Flush Due</li>
-                            <li class="coolant-flush-due-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="coolant-flush-due-heading ">Coolant Flush Due</li>
+                            <li class="coolant-flush-due-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="coolant-flush-due-table">
+                    <div class="scrolable-content ">
+                        <table class="coolant-flush-due-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1293,24 +1725,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="coolant-flush-overdue-modal">
-                <div class="coolant-flush-overdue-modal-content">
-                    <div class="coolant-flush-overdue-heading-box">
+            <div class="coolant-flush-overdue-modal ">
+                <div class="coolant-flush-overdue-modal-content ">
+                    <div class="coolant-flush-overdue-heading-box ">
                         <ul>
-                            <li class="coolant-flush-overdue-heading">Coolant Flush Overdue</li>
-                            <li class="coolant-flush-overdue-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="coolant-flush-overdue-heading ">Coolant Flush Overdue</li>
+                            <li class="coolant-flush-overdue-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="coolant-flush-overdue-table">
+                    <div class="scrolable-content ">
+                        <table class="coolant-flush-overdue-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1318,24 +1750,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="coolant-flush-upcoming-modal">
-                <div class="coolant-flush-upcoming-modal-content">
-                    <div class="coolant-flush-upcoming-heading-box">
+            <div class="coolant-flush-upcoming-modal ">
+                <div class="coolant-flush-upcoming-modal-content ">
+                    <div class="coolant-flush-upcoming-heading-box ">
                         <ul>
-                            <li class="coolant-flush-upcoming-heading">Coolant Flush Upcoming</li>
-                            <li class="coolant-flush-upcoming-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="coolant-flush-upcoming-heading ">Coolant Flush Upcoming</li>
+                            <li class="coolant-flush-upcoming-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="coolant-flush-upcoming-table">
+                    <div class="scrolable-content ">
+                        <table class="coolant-flush-upcoming-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1343,24 +1775,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="car-wash-due-modal">
-                <div class="car-wash-due-modal-content">
-                    <div class="car-wash-due-heading-box">
+            <div class="car-wash-due-modal ">
+                <div class="car-wash-due-modal-content ">
+                    <div class="car-wash-due-heading-box ">
                         <ul>
-                            <li class="car-wash-due-heading">Car Wash Due</li>
-                            <li class="car-wash-due-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="car-wash-due-heading ">Car Wash Due</li>
+                            <li class="car-wash-due-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="car-wash-due-table">
+                    <div class="scrolable-content ">
+                        <table class="car-wash-due-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1368,24 +1800,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="car-wash-overdue-modal">
-                <div class="car-wash-overdue-modal-content">
-                    <div class="car-wash-overdue-heading-box">
+            <div class="car-wash-overdue-modal ">
+                <div class="car-wash-overdue-modal-content ">
+                    <div class="car-wash-overdue-heading-box ">
                         <ul>
-                            <li class="car-wash-overdue-heading">Car Wash Overdue</li>
-                            <li class="car-wash-overdue-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="car-wash-overdue-heading ">Car Wash Overdue</li>
+                            <li class="car-wash-overdue-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="car-wash-overdue-table">
+                    <div class="scrolable-content ">
+                        <table class="car-wash-overdue-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1393,24 +1825,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="car-wash-upcoming-modal">
-                <div class="car-wash-upcoming-modal-content">
-                    <div class="car-wash-upcoming-heading-box">
+            <div class="car-wash-upcoming-modal ">
+                <div class="car-wash-upcoming-modal-content ">
+                    <div class="car-wash-upcoming-heading-box ">
                         <ul>
-                            <li class="car-wash-upcoming-heading">Car Wash Upcoming</li>
-                            <li class="car-wash-upcoming-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="car-wash-upcoming-heading ">Car Wash Upcoming</li>
+                            <li class="car-wash-upcoming-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="car-wash-upcoming-table">
+                    <div class="scrolable-content ">
+                        <table class="car-wash-upcoming-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1418,24 +1850,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="general-servicing-due-modal">
-                <div class="general-servicing-due-modal-content">
-                    <div class="general-servicing-due-heading-box">
+            <div class="general-servicing-due-modal ">
+                <div class="general-servicing-due-modal-content ">
+                    <div class="general-servicing-due-heading-box ">
                         <ul>
-                            <li class="general-servicing-due-heading">General Servicing Due</li>
-                            <li class="general-servicing-due-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="general-servicing-due-heading ">General Servicing Due</li>
+                            <li class="general-servicing-due-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="general-servicing-due-table">
+                    <div class="scrolable-content ">
+                        <table class="general-servicing-due-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1443,24 +1875,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="general-servicing-overdue-modal">
-                <div class="general-servicing-overdue-modal-content">
-                    <div class="general-servicing-overdue-heading-box">
+            <div class="general-servicing-overdue-modal ">
+                <div class="general-servicing-overdue-modal-content ">
+                    <div class="general-servicing-overdue-heading-box ">
                         <ul>
-                            <li class="general-servicing-overdue-heading">General Servicing Overdue</li>
-                            <li class="general-servicing-overdue-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="general-servicing-overdue-heading ">General Servicing Overdue</li>
+                            <li class="general-servicing-overdue-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="general-servicing-overdue-table">
+                    <div class="scrolable-content ">
+                        <table class="general-servicing-overdue-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1468,24 +1900,24 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="general-servicing-upcoming-modal">
-                <div class="general-servicing-upcoming-modal-content">
-                    <div class="general-servicing-upcoming-heading-box">
+            <div class="general-servicing-upcoming-modal ">
+                <div class="general-servicing-upcoming-modal-content ">
+                    <div class="general-servicing-upcoming-heading-box ">
                         <ul>
-                            <li class="general-servicing-upcoming-heading">General Servicing Upcoming</li>
-                            <li class="general-servicing-upcoming-modal-cross">
-                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png" alt="cross icon" />
+                            <li class="general-servicing-upcoming-heading ">General Servicing Upcoming</li>
+                            <li class="general-servicing-upcoming-modal-cross ">
+                                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png " alt="cross icon " />
                             </li>
                         </ul>
                     </div>
-                    <div class="scrolable-content">
-                        <table class="general-servicing-upcoming-table">
+                    <div class="scrolable-content ">
+                        <table class="general-servicing-upcoming-table ">
                             <tr>
                                 <th>Object</th>
                                 <th>Next Mileage Reminder</th>
@@ -1493,7 +1925,7 @@
                                 <th>Remaining Work Hour</th>
                             </tr>
                             <tr>
-                                <td colspan="4">No Record Found</td>
+                                <td colspan="4 ">No Record Found</td>
                             </tr>
                         </table>
                     </div>

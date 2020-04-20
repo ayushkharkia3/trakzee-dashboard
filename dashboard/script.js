@@ -30,6 +30,150 @@ document.querySelector('.help-how-to-modal-cross').addEventListener('click', () 
     document.querySelector('.help-how-to-modal').style.display = "none";
 });
 
+document.querySelector('.travel-distance').addEventListener('click', () => {
+    document.querySelector('.travel-distance-modal').style.display = "block";
+});
+
+document.querySelector('.travel-distance-modal-cross').addEventListener('click', () => {
+    document.querySelector('.travel-distance-modal').style.display = "none";
+});
+
+document.querySelector('.travel-distance-graph-icon').addEventListener('click', () => {
+    document.querySelector('.travel-distance-graph').style.display = "block";
+    document.querySelector('.travel-distance-table').style.display = "none";
+});
+
+document.querySelector('.travel-distance-table-icon').addEventListener('click', () => {
+    document.querySelector('.travel-distance-graph').style.display = "none";
+    document.querySelector('.travel-distance-table').style.display = "block";
+});
+
+document.querySelector('.total-trip').addEventListener('click', () => {
+    document.querySelector('.total-trip-modal').style.display = "block";
+});
+
+document.querySelector('.total-trip-modal-cross').addEventListener('click', () => {
+    document.querySelector('.total-trip-modal').style.display = "none";
+});
+
+document.querySelector('.total-trip-graph-icon').addEventListener('click', () => {
+    document.querySelector('.total-trip-graph').style.display = "block";
+    document.querySelector('.total-trip-table').style.display = "none";
+});
+
+document.querySelector('.total-trip-table-icon').addEventListener('click', () => {
+    document.querySelector('.total-trip-graph').style.display = "none";
+    document.querySelector('.total-trip-table').style.display = "block";
+});
+
+document.querySelector('.driving-duration').addEventListener('click', () => {
+    document.querySelector('.driving-duration-modal').style.display = "block";
+});
+
+document.querySelector('.driving-duration-modal-cross').addEventListener('click', () => {
+    document.querySelector('.driving-duration-modal').style.display = "none";
+});
+
+document.querySelector('.driving-duration-graph-icon').addEventListener('click', () => {
+    document.querySelector('.driving-duration-graph').style.display = "block";
+    document.querySelector('.driving-duration-table').style.display = "none";
+});
+
+document.querySelector('.driving-duration-table-icon').addEventListener('click', () => {
+    document.querySelector('.driving-duration-graph').style.display = "none";
+    document.querySelector('.driving-duration-table').style.display = "block";
+});
+
+document.querySelector('.idle-duration').addEventListener('click', () => {
+    document.querySelector('.idle-duration-modal').style.display = "block";
+});
+
+document.querySelector('.idle-duration-modal-cross').addEventListener('click', () => {
+    document.querySelector('.idle-duration-modal').style.display = "none";
+});
+
+document.querySelector('.idle-duration-graph-icon').addEventListener('click', () => {
+    document.querySelector('.idle-duration-graph').style.display = "block";
+    document.querySelector('.idle-duration-table').style.display = "none";
+});
+
+document.querySelector('.idle-duration-table-icon').addEventListener('click', () => {
+    document.querySelector('.idle-duration-graph').style.display = "none";
+    document.querySelector('.idle-duration-table').style.display = "block";
+});
+
+document.querySelector('.stop-duration').addEventListener('click', () => {
+    document.querySelector('.stop-duration-modal').style.display = "block";
+});
+
+document.querySelector('.stop-duration-modal-cross').addEventListener('click', () => {
+    document.querySelector('.stop-duration-modal').style.display = "none";
+});
+
+document.querySelector('.stop-duration-graph-icon').addEventListener('click', () => {
+    document.querySelector('.stop-duration-graph').style.display = "block";
+    document.querySelector('.stop-duration-table').style.display = "none";
+});
+
+document.querySelector('.stop-duration-table-icon').addEventListener('click', () => {
+    document.querySelector('.stop-duration-graph').style.display = "none";
+    document.querySelector('.stop-duration-table').style.display = "block";
+});
+
+document.querySelector('.inactive-duration').addEventListener('click', () => {
+    document.querySelector('.inactive-duration-modal').style.display = "block";
+});
+
+document.querySelector('.inactive-duration-modal-cross').addEventListener('click', () => {
+    document.querySelector('.inactive-duration-modal').style.display = "none";
+});
+
+document.querySelector('.inactive-duration-graph-icon').addEventListener('click', () => {
+    document.querySelector('.inactive-duration-graph').style.display = "block";
+    document.querySelector('.inactive-duration-table').style.display = "none";
+});
+
+document.querySelector('.inactive-duration-table-icon').addEventListener('click', () => {
+    document.querySelector('.inactive-duration-graph').style.display = "none";
+    document.querySelector('.inactive-duration-table').style.display = "block";
+});
+
+document.querySelector('.average-speed').addEventListener('click', () => {
+    document.querySelector('.average-speed-modal').style.display = "block";
+});
+
+document.querySelector('.average-speed-modal-cross').addEventListener('click', () => {
+    document.querySelector('.average-speed-modal').style.display = "none";
+});
+
+document.querySelector('.average-speed-graph-icon').addEventListener('click', () => {
+    document.querySelector('.average-speed-graph').style.display = "block";
+    document.querySelector('.average-speed-table').style.display = "none";
+});
+
+document.querySelector('.average-speed-table-icon').addEventListener('click', () => {
+    document.querySelector('.average-speed-graph').style.display = "none";
+    document.querySelector('.average-speed-table').style.display = "block";
+});
+
+document.querySelector('.maximum-speed').addEventListener('click', () => {
+    document.querySelector('.maximum-speed-modal').style.display = "block";
+});
+
+document.querySelector('.maximum-speed-modal-cross').addEventListener('click', () => {
+    document.querySelector('.maximum-speed-modal').style.display = "none";
+});
+
+document.querySelector('.maximum-speed-graph-icon').addEventListener('click', () => {
+    document.querySelector('.maximum-speed-graph').style.display = "block";
+    document.querySelector('.maximum-speed-table').style.display = "none";
+});
+
+document.querySelector('.maximum-speed-table-icon').addEventListener('click', () => {
+    document.querySelector('.maximum-speed-graph').style.display = "none";
+    document.querySelector('.maximum-speed-table').style.display = "block";
+});
+
 document.querySelector('.fleet-parking-graph-icon').addEventListener('click', () => {
     document.querySelector('.fleet-parking-graph').style.display = "block";
     document.querySelector('.fleet-parking-table').style.display = "none";
@@ -335,6 +479,14 @@ document.onkeydown = function(evt) {
         document.querySelector('.help-description-modal').style.display = "none";
         document.querySelector('.help-manual-modal').style.display = "none";
         document.querySelector('.help-how-to-modal').style.display = "none";
+        document.querySelector('.travel-distance-modal').style.display = "none";
+        document.querySelector('.total-trip-modal').style.display = "none";
+        document.querySelector('.stop-duration-modal').style.display = "none";
+        document.querySelector('.idle-duration-modal').style.display = "none";
+        document.querySelector('.inactive-duration-modal').style.display = "none";
+        document.querySelector('.driving-duration-modal').style.display = "none";
+        document.querySelector('.average-speed-modal').style.display = "none";
+        document.querySelector('.maximum-speed-modal').style.display = "none";
         document.querySelector('.fitness-certificate-due-modal').style.display = "none";
         document.querySelector('.fitness-certificate-overdue-modal').style.display = "none";
         document.querySelector('.fitness-certificate-upcoming-modal').style.display = "none";

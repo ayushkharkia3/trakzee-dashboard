@@ -279,7 +279,15 @@ body {
 .fuel-refil-vs-drain-box,
 .postpaid-user-detail-box,
 .fuel-vs-distance-box,
-.fleet-idling-box {
+.fleet-idling-box,
+.travel-distance-box,
+.total-trip-box,
+.driving-duration-box,
+.idle-duration-box,
+.stop-duration-box,
+.inactive-duration-box,
+.average-speed-box,
+.maximum-speed-box {
     width: 100%;
     border-bottom: 1px solid rgb(206, 206, 206);
 }
@@ -309,7 +317,23 @@ body {
 .fuel-vs-distance-heading,
 .fuel-vs-distance-components,
 .fleet-idling-heading,
-.fleet-idling-components {
+.fleet-idling-components,
+.travel-distance-section-heading,
+.travel-distance-components,
+.total-trip-section-heading,
+.total-trip-components,
+.driving-duration-section-heading,
+.driving-duration-components,
+.idle-duration-section-heading,
+.idle-duration-components,
+.stop-duration-section-heading,
+.stop-duration-components,
+.inactive-duration-section-heading,
+.inactive-duration-components,
+.average-speed-section-heading,
+.average-speed-components,
+.maximum-speed-section-heading,
+.maximum-speed-components {
     display: inline-block;
 }
 
@@ -325,7 +349,15 @@ body {
 .fuel-refil-vs-drain-components,
 .postpaid-user-detail-components,
 .fuel-vs-distance-components,
-.fleet-idling-components {
+.fleet-idling-components,
+.travel-distance-components,
+.total-trip-components,
+.driving-duration-components,
+.idle-duration-components,
+.stop-duration-components,
+.inactive-duration-components,
+.average-speed-components,
+.maximum-speed-components {
     float: right;
 }
 
@@ -367,7 +399,31 @@ body {
 .fuel-vs-distance-day,
 .fleet-idling-graph-icon,
 .fleet-idling-table-icon,
-.fleet-idling-day {
+.fleet-idling-day,
+.travel-distance-graph-icon,
+.travel-distance-table-icon,
+.travel-distance-day,
+.total-trip-graph-icon,
+.total-trip-table-icon,
+.total-trip-day,
+.driving-duration-graph-icon,
+.driving-duration-table-icon,
+.driving-duration-day,
+.idle-duration-graph-icon,
+.idle-duration-table-icon,
+.idle-duration-day,
+.stop-duration-graph-icon,
+.stop-duration-table-icon,
+.stop-duration-day,
+.inactive-duration-graph-icon,
+.inactive-duration-table-icon,
+.inactive-duration-day,
+.average-speed-graph-icon,
+.average-speed-table-icon,
+.average-speed-day,
+.maximum-speed-graph-icon,
+.maximum-speed-table-icon,
+.maximum-speed-day {
     display: block;
     float: left;
     margin-right: 5px;
@@ -385,7 +441,15 @@ body {
 .fuel-refil-vs-drain-day,
 .postpaid-user-detail-day,
 .fuel-vs-distance-day,
-.fleet-idling-day {
+.fleet-idling-day,
+.travel-distance-day,
+.total-trip-day,
+.driving-duration-day,
+.idle-duration-day,
+.stop-duration-day,
+.inactive-duration-day,
+.average-speed-day,
+.maximum-speed-day {
     padding-top: 5px;
 }
 
@@ -414,7 +478,23 @@ body {
 .fuel-vs-distance-graph-icon:hover,
 .fuel-vs-distance-table-icon:hover,
 .fleet-idling-graph-icon:hover,
-.fleet-idling-table-icon:hover {
+.fleet-idling-table-icon:hover,
+.travel-distance-graph-icon:hover,
+.travel-distance-table-icon:hover,
+.total-trip-graph-icon:hover,
+.total-trip-table-icon:hover,
+.driving-duration-graph-icon:hover,
+.driving-duration-table-icon:hover,
+.idle-duration-graph-icon:hover,
+.idle-duration-table-icon:hover,
+.stop-duration-graph-icon:hover,
+.stop-duration-table-icon:hover,
+.inactive-duration-graph-icon:hover,
+.inactive-duration-table-icon:hover,
+.average-speed-graph-icon:hover,
+.average-speed-table-icon:hover,
+.maximum-speed-graph-icon:hover,
+.maximum-speed-table-icon:hover {
     cursor: pointer;
 }
 
@@ -430,13 +510,16 @@ body {
 .fuel-refil-vs-drain-graph,
 .postpaid-user-detail-graph,
 .fuel-vs-distance-graph,
-.fleet-idling-graph {
+.fleet-idling-graph,
+.travel-distance-graph,
+.total-trip-graph,
+.driving-duration-graph,
+.idle-duration-graph,
+.stop-duration-graph,
+.inactive-duration-graph,
+.average-speed-graph,
+.maximum-speed-graph {
     display: none;
-}
-
-#chartContainer {
-    width: 100%;
-    height: 100%;
 }
 
 .fleet-parking,
@@ -454,11 +537,18 @@ body {
 .postpaid-user-detail,
 .fuel-vs-distance,
 .object-status,
-.fleet-idling {
+.fleet-idling,
+.travel-distance-section-modal,
+.total-trip-section-modal,
+.driving-duration-section-modal,
+.idle-duration-section-modal,
+.stop-duration-section-modal,
+.inactive-duration-section-modal,
+.average-speed-section-modal,
+.maximum-speed-section-modal {
     width: 100%;
     background-color: #ffffff;
     height: 330px;
-    margin: 1% 1%;
 }
 
 .renewal-reminders,
@@ -486,7 +576,15 @@ body {
 .postpaid-user-detail,
 .fuel-vs-distance,
 .object-status,
-.fleet-idling {
+.fleet-idling,
+.travel-distance-section-modal,
+.total-trip-section-modal,
+.driving-duration-section-modal,
+.idle-duration-section-modal,
+.stop-duration-section-modal,
+.inactive-duration-section-modal,
+.average-speed-section-modal,
+.maximum-speed-section-modal {
     border: 1px solid #e5e5e5;
     -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.14);
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.14);
@@ -510,6 +608,8 @@ body {
     -o-transition: all 0.5s ease-out 0s;
     transition: all 0.5s ease-out 0s;
     overflow-y: auto;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
 }
 
 .renewal-reminders .scrolable-content,
@@ -529,6 +629,8 @@ body {
     transition: all 0.5s ease-out 0s;
     overflow-x: hidden;
     overflow-y: auto;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
 }
 
 .fleet-parking-heading,
@@ -548,7 +650,15 @@ body {
 .postpaid-user-detail-heading,
 .fuel-vs-distance-heading,
 .object-status-heading,
-.fleet-idling-heading {
+.fleet-idling-heading,
+.travel-distance-section-heading,
+.total-trip-section-heading,
+.driving-duration-section-heading,
+.idle-duration-section-heading,
+.stop-duration-section-heading,
+.inactive-duration-section-heading,
+.average-speed-section-heading,
+.maximum-speed-section-heading {
     font-size: 12px;
     font-weight: 600;
     padding: 8px 5px;
@@ -591,7 +701,15 @@ body {
 .car-wash-upcoming-table,
 .general-servicing-due-table,
 .general-servicing-overdue-table,
-.general-servicing-upcoming-table {
+.general-servicing-upcoming-table,
+.travel-distance-table,
+.total-trip-table,
+.driving-duration-table,
+.idle-duration-table,
+.stop-duration-table,
+.inactive-duration-table,
+.average-speed-table,
+.maximum-speed-table {
     border-collapse: collapse;
     width: 100%;
     font-size: 12px;
@@ -638,7 +756,15 @@ body {
 .car-wash-upcoming-table th,
 .general-servicing-due-table th,
 .general-servicing-overdue-table th,
-.general-servicing-upcoming-table th {
+.general-servicing-upcoming-table th,
+.travel-distance-table th,
+.total-trip-table th,
+.driving-duration-table th,
+.idle-duration-table th,
+.stop-duration-table th,
+.inactive-duration-table th,
+.average-speed-table th,
+.maximum-speed-table th {
     width: 10%;
     display: table-cell;
     font-size: 11px;
@@ -688,11 +814,19 @@ body {
 .car-wash-upcoming-table td,
 .general-servicing-due-table td,
 .general-servicing-overdue-table td,
-.general-servicing-upcoming-table td {
+.general-servicing-upcoming-table td,
+.travel-distance-table td,
+.total-trip-table td,
+.driving-duration-table td,
+.idle-duration-table td,
+.stop-duration-table td,
+.inactive-duration-table td,
+.average-speed-table td,
+.maximum-speed-table td {
     display: table-cell;
     font-size: 11px;
     background-color: #ffffff;
-    padding: 8px 0px;
+    padding: 8px 0;
     border: 1px solid rgb(229, 229, 229);
     text-align: center;
     font-weight: 400;
@@ -748,7 +882,15 @@ body {
 .general-servicing-upcoming-modal,
 .help-description-modal,
 .help-manual-modal,
-.help-how-to-modal {
+.help-how-to-modal,
+.travel-distance-modal,
+.total-trip-modal,
+.driving-duration-modal,
+.idle-duration-modal,
+.stop-duration-modal,
+.inactive-duration-modal,
+.average-speed-modal,
+.maximum-speed-modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -785,7 +927,15 @@ body {
 .general-servicing-upcoming-modal-content,
 .help-description-modal-content,
 .help-manual-modal-content,
-.help-how-to-modal-content {
+.help-how-to-modal-content,
+.travel-distance-modal-content,
+.total-trip-modal-content,
+.driving-duration-modal-content,
+.idle-duration-modal-content,
+.stop-duration-modal-content,
+.inactive-duration-modal-content,
+.average-speed-modal-content,
+.maximum-speed-modal-content {
     background-color: #fefefe;
     margin: auto;
     border: 1px solid #888;
@@ -817,7 +967,15 @@ body {
 .general-servicing-upcoming-heading-box ul li,
 .help-description-heading-box ul li,
 .help-manual-heading-box ul li,
-.help-how-to-heading-box ul li {
+.help-how-to-heading-box ul li,
+.travel-distance-heading-box ul li,
+.total-trip-heading-box ul li,
+.driving-duration-heading-box ul li,
+.idle-duration-heading-box ul li,
+.stop-duration-heading-box ul li,
+.inactive-duration-heading-box ul li,
+.average-speed-heading-box ul li,
+.maximum-speed-heading-box ul li {
     display: inline-block;
     list-style-type: none;
     font-size: 14px;
@@ -848,7 +1006,15 @@ body {
 .general-servicing-upcoming-heading-box,
 .help-description-heading-box,
 .help-manual-heading-box,
-.help-how-to-heading-box {
+.help-how-to-heading-box,
+.travel-distance-heading-box,
+.total-trip-heading-box,
+.driving-duration-heading-box,
+.idle-duration-heading-box,
+.stop-duration-heading-box,
+.inactive-duration-heading-box,
+.average-speed-heading-box,
+.maximum-speed-heading-box {
     width: 100%;
     height: 8%;
     background-color: #234292;
@@ -877,7 +1043,15 @@ body {
 .general-servicing-overdue-heading,
 .help-description-heading,
 .help-manual-heading,
-.help-how-to-heading {
+.help-how-to-heading,
+.travel-distance-modal-heading,
+.total-trip-modal-heading,
+.driving-duration-modal-heading,
+.idle-duration-modal-heading,
+.stop-duration-modal-heading,
+.inactive-duration-modal-heading,
+.average-speed-modal-heading,
+.maximum-speed-modal-heading {
     margin-top: 5px;
     margin-left: 5px;
     float: left;
@@ -906,7 +1080,15 @@ body {
 .general-servicing-upcoming-modal-cross,
 .help-description-modal-cross,
 .help-manual-modal-cross,
-.help-how-to-modal-cross {
+.help-how-to-modal-cross,
+.travel-distance-modal-cross,
+.total-trip-modal-cross,
+.driving-duration-modal-cross,
+.idle-duration-modal-cross,
+.stop-duration-modal-cross,
+.inactive-duration-modal-cross,
+.average-speed-modal-cross,
+.maximum-speed-modal-cross {
     float: right;
     cursor: pointer;
 }
